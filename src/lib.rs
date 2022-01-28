@@ -1,4 +1,5 @@
 #![cfg_attr(feature = "nightly", feature(never_type))]
+#![cfg_attr(feature = "nightly", feature(read_buf))]
 #![cfg_attr(not(feature = "std"), no_std)]
 #![cfg_attr(feature = "std", allow(dead_code))]
 

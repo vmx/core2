@@ -17,7 +17,7 @@ use core::any::TypeId;
 use core::fmt::{Debug, Display};
 
 #[cfg(feature = "alloc")]
-use alloc::{string::String, borrow::Cow, boxed::Box};
+use alloc::{borrow::Cow, boxed::Box, string::String};
 
 /// `Error` is a trait representing the basic expectations for error values,
 /// i.e., values of type `E` in [`Result<T, E>`]. Errors must describe
